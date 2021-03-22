@@ -3,12 +3,12 @@ package com.example.electiva3_android_lista.Models;
 import java.io.Serializable;
 
 public class Elefante implements Serializable {
-    public Elefante(String nombre, String descripcion, String foto,String Sexo, String origen) {
+    public Elefante(String nombre, String descripcion, String foto,String sexo, String origen) {
         Nombre = nombre;
         Descripcion = descripcion;
         Foto = foto;
-        Sexo = Sexo;
-        origen = origen;
+        Sexo = sexo;
+        Origen = origen;
     }
 
     public Elefante()
@@ -33,7 +33,7 @@ public class Elefante implements Serializable {
     }
 
     public String getorigen() {
-        return origen;
+        return Origen;
     }
 
     private String Nombre;
@@ -41,6 +41,6 @@ public class Elefante implements Serializable {
     private String Foto;
 
     private String Sexo;
-    private String origen;
+    private String Origen;
 
 }
