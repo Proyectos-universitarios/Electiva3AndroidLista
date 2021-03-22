@@ -66,7 +66,7 @@ public class AdapterElefantes  extends BaseAdapter {
         URL url = null;
 
         try {
-            url = new URL("http://image10.bizrate-images.com/resize?sq=60&uid=2216744464");
+            url = new URL(urlstring);
             bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
 
         } catch (MalformedURLException e) {
