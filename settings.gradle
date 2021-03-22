@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Electiva3-Android-Lista"
